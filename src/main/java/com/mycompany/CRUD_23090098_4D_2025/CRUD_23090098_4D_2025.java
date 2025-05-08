@@ -11,10 +11,10 @@ public class CRUD_23090098_4D_2025 {
         MongoClient mongoClient = MongoClients.create("mongodb://localhost:27017");
 
         // Memilih database 'belajar'
-        MongoDatabase database = mongoClient.getDatabase("belajar");
+        MongoDatabase database = mongoClient.getDatabase("uts_23090098_D_2025");
 
         // Memilih koleksi 'belajar_crud'
-        MongoCollection<Document> collection = database.getCollection("belajar_crud");
+        MongoCollection<Document> collection = database.getCollection("coll_23090098_D_2025");
 
         // ======== CREATE ========
 
